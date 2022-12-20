@@ -1,0 +1,167 @@
+
+
+.navbar {
+    position: fixed;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-color: #E8E8E8;
+    border-image: linear-gradient(45deg, green, white) 1;
+    z-index: 2000;
+    
+}
+
+.navbar-active{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-color: #E8E8E8;
+    border-image: linear-gradient(45deg, green, white) 1;
+
+    z-index: 2000;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logh1 {
+    color: green;
+}
+
+.nav-links{
+    display: flex;
+    margin-left: 100px;
+  
+
+    
+}
+
+.nav-links li {
+    margin-left: 60px;
+    list-style: none;
+}
+
+.navbar .nav-links a {
+    
+
+}
+
+.nonhighlight {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'fantasy';
+    color: white;
+   
+}
+
+.highlight {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'fantasy';
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.forsearch {
+    display: flex;
+    margin-left: 33px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 0ch;
+    border-bottom-width: 0px;
+    border-color: grey;
+
+}
+
+.fas {
+    margin-top: 4px;
+    margin-right: 8px;
+
+}
+.search {
+    color: green;
+    border-style: solid;
+    border-width: 0ch;
+    border-bottom-width: 2px;
+    border-color: grey;
+    font-family: 'fantasy';
+    font-size: 23px;
+    width: 140px;
+
+}
+
+.navbar-active .forsearch {
+    display: flex;
+  
+    margin-left: 33px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.navbar-active .search {
+    color: green;
+    border-color: #E8E8E8;
+    font-family: 'fantasy';
+    font-size: 23px;
+    width: 140px;
+
+    
+}
+.navbar-active .nonhighlight {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'fantasy';
+    color: black;
+   
+
+}
+.imm {
+    height: 80px;
+    margin-top: 8px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+   
+ 
+}
+
+.navbar-active .highlight {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'fantasy';
+    color: rgb(31, 187, 31);
+    font-weight: bold;
+}
+
+.btt {
+    font-weight: bold;
+    color: green;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+   
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+    font-size: 23px;
+    color: green;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    
+}
+

@@ -1,0 +1,28 @@
+
+.btcart {
+    border-radius: 0ch;
+    width: 300px;
+}
+
+.btcart:hover {
+
+}
+
+.secCol {
+    margin-left: -60px;
+    width: 400px;
+}
+
+.rrcart {
+    padding-top: 180px;
+}
+
+.h1cart {
+    margin-bottom: 50px;
+
+}
+
+.pcart {
+   font-size: 21px;
+   color: green;
+}

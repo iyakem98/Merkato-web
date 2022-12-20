@@ -1,0 +1,25 @@
+/*.hd {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.hd::before {
+    content: '';
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Addis_ababa_night_skyline.jpg');
+    background-position: 10%, 10%;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 58vw;
+    width: 100%;
+    margin-left: -22px;
+    z-index: -1;
+    opacity: 1;
+    filter: brightness(20%);
+    
+}*/
+
+

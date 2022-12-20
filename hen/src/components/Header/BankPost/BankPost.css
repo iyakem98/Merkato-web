@@ -1,0 +1,53 @@
+
+
+.bancont {
+    margin-top: 22px;
+    width: 200px;
+    height: 190px;
+    
+    margin-left: 3px;
+    padding-top: 22px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 1px;
+
+}
+
+.bancont::before {
+    content: '';
+    position: absolute;
+    background-color: chartreuse;
+    width: 200px;
+    height: 190px;
+    opacity: 0.3;
+}
+
+.bancont:hover {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    background-color: white;
+}
+
+.iii {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    z-index: 1000;
+
+}
+
+.banp {
+    font-size: 22px;
+    font-family: 'fantasy';
+    margin-bottom: -130px;
+    background-color: chartreuse;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+

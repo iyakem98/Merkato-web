@@ -1,0 +1,86 @@
+import React from 'react';
+import { useState, useEffect } from 'react';
+import {Form, Button, Row, Col} from 'react-bootstrap'
+import { useSelector, useDispatch } from 'react-redux';
+import Loading from '../components/Loading';
+import { login } from '../actions/userAction';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import FormContainer from '../components/FormContainer';
+import { Redirect } from 'react-router-dom';
+import './LoginScreen.css'
+import Message from '../components/Message';
+
+const LoginScreen = () => {
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const location = useLocation()
+    const dispatch = useDispatch()
+    const history = useHistory()
+
+    const userLogin = useSelector(state => state.userLogin)
+
+    const {loading, error, userInfo} = userLogin
+    
+    const redirect = location.search? location.search.split('=')[1]: '/Banking'
+
+    const submitHandler = (e) => {
+        e.preventDefault()
+        dispatch(login (email, password))
+    }
+    
+    useEffect(() => {
+        if (userInfo) {
+            history.push(redirect)
+        }
+    })
+
+  return (
+      <div className='logdiv'>
+           <FormContainer>
+          <h1 className='h1log'>Sign in</h1>
+         {error && <Message variant='danger'>{error}</Message>}
+         {loading && <Loading/>}
+          <Form onSubmit={submitHandler}>
+              <Form.Group controlId='email' className='frmgrp'>
+                  <Form.Label className='frmlog text-dark'>
+                      Email Address
+                  </Form.Label>
+                  <Form.Control
+                    type='email'
+                    placeholder='Enter email'
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  >
+                  </Form.Control>
+              </Form.Group>
+
+              <Form.Group controlId='password' className='frmgrp'>
+                  <Form.Label className='frmlog text-dark'>
+                      Password
+                  </Form.Label>
+                  <Form.Control
+                    type='password'
+                    placeholder='Enter password'
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                  >
+                  </Form.Control>
+              </Form.Group>
+
+              <Button type ='submit' variant = 'primary' className='btn btn-block btn-success bttt'>
+                    Sign in
+              </Button>
+          </Form>
+
+          <Row className='py-3'>
+              <Col className='logcollast'>
+                New Customer? <Link className='text-success' to = {redirect ? `/register?redirect=${redirect}`: `/register`}>Register</Link>
+              </Col>
+          </Row>
+      </FormContainer>
+      </div>
+     
+  )
+};
+
+export default LoginScreen;

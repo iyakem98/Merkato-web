@@ -1,0 +1,42 @@
+import React from 'react'
+import './BuyList.css'
+import '../../bootstrap.min.css'
+import {Row, Col} from 'react-bootstrap'
+import { useState, useEffect } from 'react'
+import { Container } from 'react-bootstrap'
+import Feed from '../../data/feed'
+import BuyCard from './BuyCard'
+import axios from 'axios'
+
+
+const BuyList = () => {
+
+    const [Feed, setFeed] = useState([])
+
+    useEffect(() => {
+        const fetchBanks = async () => {
+            const {data} = await axios.get('/api/banks')
+            
+            setFeed(data)
+        }
+
+        fetchBanks()
+    }, [])
+    
+    return (
+        <div className='bl'>
+            <h1 className='blh1'>Banks</h1>
+            <Container>
+                <Row>
+                    {Feed.map(product => (
+                        <Col sm={12} md={6} lg={4} xl={3}>
+                            <BuyCard product = {product}/>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
+        </div>
+    )
+}
+
+export default BuyList

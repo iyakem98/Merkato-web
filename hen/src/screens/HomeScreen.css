@@ -1,0 +1,133 @@
+.hm {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 44vw;
+    align-items: center;
+
+    
+}
+
+.hm::before {
+    content: '';
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Addis_ababa_night_skyline.jpg');
+    background-position: 10%, 10%;
+    background-attachment: fixed;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 55vw;
+    width: 100%;
+    margin-right: -0px;
+    z-index: -1;
+    opacity: 1;
+    filter: brightness(40%);
+}
+
+.hmh1 {
+    color: white;
+    font-size: 60px;
+    margin-left: 280px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: 'fantasy';
+
+}
+
+
+.h3head {
+    font-family: 'fantasy';
+    font-size: 34px;
+}
+.phead {
+    font-size: 20px;
+    font-family: 'fantasy';
+    line-height: 51px;
+    margin-bottom: 53px;
+}
+
+.hmbtn {
+  margin-top: 476px;
+  margin-left: 77.6vw;
+  height: 212px;
+  width: 13.2vw;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'fantasy';
+  /*background-image: linear-gradient(to right , lightgreen, rgb(9, 160, 9));*/
+  background-color: chartreuse;
+  opacity: 0.6;
+  color: black;
+  border-width: 0px;
+  position: relative;
+
+
+}
+
+
+
+.hbtn:hover{
+  background-image: linear-gradient(to right , white, chartreuse);
+  opacity: 1;
+  color: black;
+  
+}
+
+.btnhead {
+    background-color: green;
+    border-width: 0ch;
+    color: white;
+    width: 70%;
+    height: 33px;
+    font-family: 'fantasy';
+    font-size: 20px;
+}
+
+.btnhead:hover {
+    font-weight: bold;
+}
+
+.floating-icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: -120px;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .floating-icon a {
+    border: 0px solid #fff;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mouse {
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(25%);
+    }
+}
+
+
+

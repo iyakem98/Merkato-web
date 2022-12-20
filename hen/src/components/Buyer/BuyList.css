@@ -1,0 +1,28 @@
+
+.bl {
+
+    width: 100vw;
+    padding-top: 90px;
+
+    
+    
+    
+}
+
+.lsnav {
+    height: 100px;
+    position: fixed;
+    background-color: #E8E8E8;
+    margin-bottom: 55px;
+}
+
+.blh1 {
+    margin-top: 44px;
+    margin-left: 44vw;
+   
+    margin-bottom: 55px;
+    font-size: 60px;
+    
+    text-align: center;
+}
+

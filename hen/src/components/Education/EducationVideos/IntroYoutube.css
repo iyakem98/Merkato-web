@@ -1,0 +1,47 @@
+
+.introclass {
+   padding-top: 30px;
+   padding-bottom: 100px;
+
+    
+    
+}
+
+.react-player {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 0.2ch;
+    border-bottom-width: 0.2ch;
+    border-color: #198754;
+}
+
+.introforh {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.undervid {
+    background-color: rgb(183, 255, 199);
+    background-color: #E8E8E8;
+    height: 70px;
+    width: 1200px;
+    margin-left: 170px;
+    padding-top: 15px;
+    padding-bottom: 10x;
+    border-style: solid;
+    border-width: 0.0ch;
+    border-top-width: 0ch;
+    border-color: #198754;
+}
+
+.undervid h4{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 30px;
+}

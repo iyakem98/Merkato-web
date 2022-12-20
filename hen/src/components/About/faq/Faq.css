@@ -1,0 +1,28 @@
+
+
+.faq {
+    height: 900px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.u-title {
+    font-family: 'fantasy';
+    margin-bottom: 33px;
+}
+
+.u-title h2 {
+    font-size: 44px;
+    color: rgb(31, 187, 31);
+}
+
+.u-text-small {
+    font-size: 20px;
+
+}

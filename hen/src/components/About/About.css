@@ -1,0 +1,169 @@
+
+
+.about {
+    position: relative;
+    width: 100vw;
+    margin-top: 153px;
+    /*background-image: url('https://media.tacdn.com/media/attractions-splice-spp-674x446/07/82/83/56.jpg');*/
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a3/Addis_ababa_night_skyline.jpg');*/
+    background-image: url('https://image.shutterstock.com/image-vector/dark-green-color-background-line-260nw-1709444815.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10%, 10%;
+}
+
+.abhd {
+    display: flex;
+    /*background-image: url('https://media.gettyimages.com/videos/abstract-blocks-background-video-id1191991111?s=640x640');*/
+    background-color: pink;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.abim {
+    height: 100%;
+    margin-left: 33px;
+}
+
+.intro {
+    margin-left: 40px;
+    position: relative;
+    margin-right: 2%;
+}
+
+.intro h1 {
+    font-size: 72px;
+    font-family: 'fantasy';
+    color: chartreuse;
+}
+
+.intro h3 {
+    color: white;
+    font-family: 'fantasy';
+    font-size: 30px;
+}
+
+.intro button {
+    background-color: rgba(0, 255, 0, 0.753);
+    border-width: 0ch;
+    width: 50%;
+    height: 70px;
+    font-family: 'fantasy';
+    font-size: 32px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abbut:hover {
+    background-image: linear-gradient(to left , chartreuse , white);; 
+    
+}
+
+.bsab {
+    margin-left: 13px;
+}
+.h3ab {
+    color: white;
+    font-size: 73px;
+    font-family: 'fantasy';
+}
+
+.ab1 {
+    background-image: linear-gradient(to left , darkgreen , lightgreen);; 
+    /*background-color: #f8f4ff;*/
+    padding-top: 66px;
+    height: 800px;
+    display: flex;
+    align-content: space-around;
+    position: relative;
+    border-style: solid;
+    border-width: 0ch;
+    border-bottom-width: 0px;
+    border-color: green;
+}
+
+.sp {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bx1 {
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    margin-left: 132px;
+    margin-top: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E8E8E8;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+   
+
+}
+
+.intro p {
+    font-family: 'fantasy';
+    font-size: 20px;
+    line-height: 63px;
+    color: white;
+}
+
+.pab {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: 'fantasy';
+    font-size: 30px;
+    line-height: 63px;
+}
+
+.pa {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: 'fantasy';
+    font-size: 30px;
+    line-height: 63px;
+}
+
+.btnab {
+    width: 211px;
+    height: 51px;
+    border-width: 0px;
+    font-family: 'fantasy';
+    font-size: 22px;
+    background-image: linear-gradient(to right , black, green);;
+    color: white;
+   
+    
+}
+
+.btnab:hover {
+    font-weight: bold;
+    background-image: linear-gradient(to right , white, green);;
+    color: black;
+}
+
+.pab2 {
+    font-family: 'fantasy';
+    margin-left: 40%;
+    margin-right: 31px;
+    margin-top: 41px;
+    font-size: 22px;
+    line-height: 44px;
+
+}

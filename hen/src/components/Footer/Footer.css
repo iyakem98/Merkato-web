@@ -1,0 +1,64 @@
+.main-footer {
+    margin-top: 100px;
+    background-color: #E8E8E8;
+    height: 440px;
+    padding-top: 70px;
+    
+}
+
+.row {
+   
+}
+
+.footer-bottom {
+    background-color: #212529;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 45px;
+    padding-left: 33px;
+}
+
+.text-xs-center {
+   margin-left: 65px;
+   margin-right: 65px;
+}
+
+.companyfoot {
+    color: #198754;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.h3foot {
+    margin-bottom: 34px;
+}
+
+.lifoot {
+    margin-bottom: 20px;
+    font-size: medium;
+
+    
+}
+
+.spancont {
+    font-size: medium;
+    color: #212529 ;
+    margin-right: 10px;
+}
+
+.lastpfoot {
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 40px;
+}
+
+.smfoot {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.smfoot_each {
+    margin-right: 30px;
+}

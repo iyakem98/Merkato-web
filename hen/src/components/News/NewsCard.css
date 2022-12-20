@@ -1,0 +1,42 @@
+
+.ncard1 {
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    
+
+}
+
+.ncard1:hover {
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    background-color: #eceaea;
+   
+}
+
+.ncard1:hover .ncardim {
+    height: 320px;
+   
+} 
+
+.ncardim {
+    height: 200px;
+}
+
+.ncarddate {
+
+    
+
+}
+
+.ncardtext {
+    font-size: 18px;
+}
+
+.ncardtextdiv {
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}

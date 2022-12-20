@@ -1,0 +1,55 @@
+
+.eddiv {
+   margin-bottom: -100px;
+   background-color: white
+    
+}
+
+.eduser {
+    padding-top: 80px;
+}
+
+.headed {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-color: rgb(183, 255, 199);
+    
+}
+
+.pap {
+    height: 300px;
+}
+
+
+.buted {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.lsg {
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+    background-color: rgb(183, 255, 199) !important;
+    text-align: center;
+}
+
+.lsgus {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+    background-color: rgb(143, 255, 167) !important;
+}
+
+.edheadcol {
+    padding-top: 50px !important;
+    padding-left: 250px !important;
+}
+
+.edheadcol h3 {
+    line-height: 50px;
+
+}
+
+.edheadcol2 {
+    margin-top: 100px !important;
+    margin-left: -90px;
+}

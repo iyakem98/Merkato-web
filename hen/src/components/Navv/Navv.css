@@ -1,0 +1,67 @@
+.navls{
+    font-size: 18px;
+    margin-right: 44px;
+    color: white
+    
+}
+
+.navls-active {
+    color: black;
+  }
+
+.nnn {
+    position: fixed;
+    z-index: 30000;
+}
+
+.navls:hover {
+    color: rgb(29, 185, 29);
+}
+
+.navlsactive:hover {
+    color: rgb(29, 185, 29);
+}
+
+.drcl {
+    background-color: yellow;
+}
+.drcl:active {
+    background-color: rgb(29, 185, 29);
+}
+
+.lnn {
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+.lnn:hover {
+    color: rgb(29, 185, 29);
+}
+
+.frmgrp {
+    margin-bottom: 10px;
+}
+
+.drnav:active{
+    background-color: #198754;
+}
+
+.naved {
+    background-color: #198754;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.naved:hover {
+    background-color: rgb(183, 255, 199);
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+
+/*--bs-primary: #0d6efd;*/

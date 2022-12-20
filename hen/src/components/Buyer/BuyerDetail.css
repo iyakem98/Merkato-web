@@ -1,0 +1,114 @@
+.BuyDet {
+   
+    padding-top: 150px;
+   
+
+}
+
+.upcont {
+    display: flex;
+    flex-direction: row;
+    margin-top: -60px;
+    margin-bottom: 200px;
+}
+
+.carter {
+    width: 400px;
+    margin-left: 1060px;
+    margin-top: -200px;
+
+}
+
+.h1bnk {
+   
+}
+
+.h1cont {
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0px;
+   display: flex;
+}
+.rrr {
+    
+}
+
+.btt1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.btt1:hover {
+    background-color: #E8E8E8;
+    
+}
+.bb {
+    
+    width: auto;
+    margin-top: 20px;
+    margin-left: 44px;
+    margin-right: -450px;
+    height: 600px;
+    width: 600px;
+}
+
+.cc {
+    width: auto;
+    padding: 0ch;
+    margin-left: 0px;
+    margin-top: 100px;
+    height: 100px;
+    width: 300px;
+    
+}
+
+.dd {
+    margin-top: 404px
+}
+
+.chartcol {
+    height: 444px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.immdet {
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    margin-top: -20px;
+    border-bottom-width: 10px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    border-radius: 50%;
+   
+}
+
+.charr {
+    
+    position: relative;
+    width: 1200px;
+    margin-bottom: 200px;
+    margin-top: -200px;
+    margin-left: 50px;
+    height: 1000px;
+
+}
+
+.bottcont{
+    padding-top: 100px;
+    
+}
+
+.pdet {
+    font-family: 'fantasy';
+    font-size: 20px;
+}
+
+.cartbut:hover {
+    
+}

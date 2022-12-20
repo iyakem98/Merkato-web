@@ -1,0 +1,33 @@
+.edlist {
+    padding-top: 40px;
+}
+.edcard {
+    height: 330px;
+    width: 280px;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px;
+    color: #E8E8E8;
+
+}
+.edcard :hover {
+  box-shadow: 0px 0px 5px 5px rgba(221, 221, 221, 0.5);
+
+}
+.edcard h5 {
+    font-weight: 800;
+    margin-bottom: -1px;
+}
+
+.edim {
+    height: 150px;
+}
+
+.pred {
+    background-color: #E8E8E8;
+    height: 6px !important;
+
+}
+
+.edcardbott {
+    margin-top: 5px
+}

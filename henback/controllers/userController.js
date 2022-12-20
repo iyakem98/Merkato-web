@@ -85,7 +85,7 @@ const getUserProfile = asyncHandler(async(req, res) => {
     }
     else {
         res.status(404)
-        throw new Erro ('User not found')
+        throw new Error ('User not found')
     }
 })
 
@@ -119,7 +119,7 @@ const updateUserProfile = asyncHandler(async(req, res) => {
     }
     else {
         res.status(404)
-        throw new Erro ('User not found')
+        throw new Error ('User not found')
     }
 })
 
